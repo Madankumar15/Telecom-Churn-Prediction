@@ -1,7 +1,7 @@
 # Telecom Customer Churn Prediction
 ### Apache Kafka + PySpark Medallion Architecture on Google Colab
 
-> **DSCI 632 Final Project** — Kafka ingestion, Pyspark layered preprocessing, exploratory data analysis, and Random Forest classification entirely on free Google Colab infrastructure.
+> Kafka ingestion, Pyspark layered preprocessing, exploratory data analysis, and Random Forest classification entirely on free Google Colab infrastructure.
 
 ---
 
@@ -637,5 +637,3 @@ README.md                        # This file
 ```
 
 ---
-
-*DSCI 632 — Drexel University*
