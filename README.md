@@ -94,8 +94,3 @@ The final Random Forest model achieved strong discriminatory power across all fo
 * Java 8/11
 * Spark 3.x
 * Python 3.8+
-
-### Running the Pipeline
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/telco-churn-pyspark.git](https://github.com/yourusername/telco-churn-pyspark.git)
