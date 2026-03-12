@@ -637,3 +637,28 @@ README.md                        # This file
 ```
 
 ---
+
+## License
+
+### Project Code
+
+This project's code (notebook, pipeline, preprocessing, and ML implementation) is licensed under the **Apache License 2.0**.
+See [LICENSE](./LICENSE) for the full text.
+
+### Dataset
+
+The Telco Customer Churn dataset used in this project is sourced from IBM and is publicly available via:
+
+- **IBM GitHub:** https://github.com/IBM/telco-customer-churn-on-icp4d/blob/master/data/Telco-Customer-Churn.csv
+- **Kaggle mirror:** https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+**The raw dataset file (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) and any derived output files (`churn_predictions.csv`) are not included in this repository.**
+IBM has not explicitly licensed the dataset CSV for redistribution. To replicate this project, download the file directly from the IBM GitHub link or Kaggle above and upload it manually during Cell 4 of the notebook.
+
+### Third-Party Dependencies
+
+All Java JARs used in this project (Spark-Kafka connector, kafka-clients, commons-pool2) are licensed under the **Apache License 2.0** by their respective owners (Apache Software Foundation).
+kafka-python is licensed under the **Apache License 2.0**.
+PySpark is licensed under the **Apache License 2.0**.
+
+---
