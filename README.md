@@ -1,9 +1,6 @@
 # 📡 Telco Customer Churn: End-to-End Predictive Pipeline
 > **A PySpark-driven Medallion Architecture and Random Forest Classifier for Churn Mitigation.**
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Spark](https://img.shields.io/badge/Apache_Spark-3.x-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 📋 Table of Contents
 1. [Project Overview](#project-overview)
