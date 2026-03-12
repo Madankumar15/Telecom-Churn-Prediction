@@ -1,0 +1,73 @@
+# ============================================================
+# Telecom Customer Churn Prediction
+# Requirements for Google Colab replication
+# ============================================================
+#
+# IMPORTANT — READ BEFORE INSTALLING
+# -----------------------------------------------------------
+# This project runs on Google Colab (free tier).
+# The versions below are pinned deliberately.
+# Do NOT upgrade pyspark, commons-pool2, or kafka-clients
+# without verifying Kafka connector compatibility first.
+#
+# PySpark 4.x is INCOMPATIBLE with the Kafka jars listed here.
+# commons-pool2 must be exactly 2.11.1 for PySpark 3.5.3.
+#
+# Java and Kafka are installed via apt/wget, not pip.
+# See README.md Cell 1 for those install commands.
+# ============================================================
+
+# ── Core ML / Data Processing ───────────────────────────────
+pyspark==3.5.3
+
+# ── Kafka Python Client ──────────────────────────────────────
+kafka-python>=2.0.2
+
+# ── Data Manipulation ────────────────────────────────────────
+pandas>=1.5.0
+numpy>=1.23.0
+
+# ── Visualization ────────────────────────────────────────────
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ── Statistical Analysis ─────────────────────────────────────
+scipy>=1.9.0
+
+# ============================================================
+# Java JARs — installed via wget (not pip)
+# These must be downloaded manually to /kafka_jars/
+# See README.md Cell 1 for the exact wget commands.
+# ============================================================
+#
+# spark-sql-kafka-0-10_2.12-3.5.3.jar
+#   https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.12/3.5.3/
+#
+# spark-token-provider-kafka-0-10_2.12-3.5.3.jar
+#   https://repo1.maven.org/maven2/org/apache/spark/spark-token-provider-kafka-0-10_2.12/3.5.3/
+#
+# kafka-clients-3.4.1.jar
+#   https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.4.1/
+#
+# commons-pool2-2.11.1.jar   ← MUST be exactly 2.11.1
+#   https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.11.1/
+#
+# ============================================================
+# System Dependencies — installed via apt (not pip)
+# ============================================================
+#
+# openjdk-17-jdk-headless
+#   sudo apt-get install -y openjdk-17-jdk-headless
+#   JAVA_HOME = /usr/lib/jvm/java-17-openjdk-amd64
+#
+# Apache Kafka 3.6.2
+#   wget https://archive.apache.org/dist/kafka/3.6.2/kafka_2.13-3.6.2.tgz
+#   Extracted to /kafka
+#
+# ============================================================
+# Colab-only packages (pre-installed, no pip needed)
+# ============================================================
+#
+# google-colab      — files.upload(), drive.mount()
+#
+# ============================================================
